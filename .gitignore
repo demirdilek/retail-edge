@@ -35,3 +35,40 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Binaries and executables
+bin/
+cmd/server/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+retail-edge
+
+# SQLite database files
+# These should stay local for the MVC
+*.db
+*.db-wal
+*.db-shm
+
+# Dependency directories
+vendor/
+
+# Test coverage files
+*.out
+*.test
+prof/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
